@@ -1,0 +1,31 @@
+﻿<controls:MetroWindow
+        xmlns:controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Name="MainPanel" WindowStyle="None"
+		Width="600" Height="400" ResizeMode="NoResize" 
+		WindowStartupLocation="CenterScreen" Topmost="True">  
+
+	<Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Colors.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/Blue.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/BaseDark.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+		</ResourceDictionary>
+    </Window.Resources>	
+	
+	<Grid>
+
+        <StackPanel x:Name="StackElements" Orientation="Horizontal" HorizontalAlignment="Center">
+
+            <Button x:Name="CloseBtn"  Margin="5,5,5,5" Content="Close" Width="100" Height="40"/>
+        
+        </StackPanel>
+    
+	</Grid>
+	
+</controls:MetroWindow>

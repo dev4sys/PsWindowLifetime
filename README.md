@@ -1,2 +1,2 @@
 # PsWindowLifetime
-Describe window lifetime in powershell
+Describes window lifetime in WPF and powershell
